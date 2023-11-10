@@ -5,11 +5,12 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
 	<title>Portfolio</title>
-	<link /* Implementing normalize.css to improve cross browser consistency */
-    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" 
-    rel="stylesheet"
-    type="text/css" 
-  	/>
+  <!--Implementing normalize.css to improve cross browser consistency-->
+    <link 
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
 	<link rel="stylesheet" href="style.css">
 </head>
 
@@ -17,16 +18,35 @@
 	<header>
 		Joshua Mackelprang
 	</header>
-	<main>
-		<img src="Profile Pic.jpg" width = "500"/>
+	<main style= "margin-top:2em;"> <!--Creating some space between the top of the picture and the bottom of the header-->
+		<img src="Profile Pic.jpg" class = "round-image"/> <!--Calling the "round image" class to add a circular shape to the image and fix it's size-->
+    <h1>Hi! I'm Joshua Mackelprang</h1>
+    <p>I am a cybersecurity analyst living in Raleigh, North Carolina.</p>
+    <p>I am currently enrolled in Thinkful's program to broaden my skills and learn how to be a software developer.</p>
+    <h2>About Me</h2>
+    <p>After graduating college, I started working for a cybersecurity company as a SOC Analyst. While I do enjoy my work there, I have always wanted to learn how to be a programmer ever since my dad taught me about what he did for his job when I was little. I eventually decided to pursue my interests and start seriously learning how to code</p>
+    <h3>These are some of the things I've learned how to do through programming:</h3>
+    <ol>
+      <li>Simplify code to be easier to read and more efficient</li>
+      <li>Work with others to find unique and creative solutions</li>
+      <li>Create stylish and functional websites</li>
+    </ol>
+    <hr style= "margin-bottom:2em; margin-top: 2em;">
+    <h3>Here are a few of my favorite things to do for fun:</h3>
+    <ul>
+      <li>Playing board games or video games with friends and family</li>
+      <li>Going camping and seeing the night sky full of stars</li>
+      <li>Read science fiction novels with my cat lying in my lap</li>
+    </ul>
 	</main>
-	<footer>
-		<nav>
-			<a href="https://www.linkedin.com/in/joshua-mackelprang-41984929a/" target="_blank">LinkedIn</a> <!--Opens my LinkedIn profile page in a new tab-->
-			<a href="https://github.com/Mackelprangj" target="_blank">GitHub</a> <!--Opens my GitHub profile page in a new tab-->
-			<div><code>&lt;a href="joshua@mackelprang.com"&gt;Email Me&lt;/a&gt;</code></div> <!--Opens default email program and auto populates my email as the recipient--> 
-    			<p><a href="joshua@mackelprang.com">Email Me: </a></p>
-		</nav>
+  <hr style= "margin-top:2em;">
+	<footer style= "margin-bottom:2em;">
+    <p>Thanks for checking out my website! Feel free to contact me below!</p>
+    <nav><a href="https://www.linkedin.com/in/joshua-mackelprang-41984929a/" target="_blank">LinkedIn</a></nav> <!--Opens my LinkedIn profile page in a new tab-->
+    <nav><a href="https://github.com/Mackelprangj" target="_blank">GitHub</a></nav> 
+    <!--Opens my GitHub profile page in a new tab-->
+      <nav><a href="mailto:joshua@mackelprang.com">Email Me</a></nav>
+      <!--Opens default email program and auto populates my email as the recipient--> 
 	</footer>
 </body>
 	
