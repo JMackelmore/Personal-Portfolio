@@ -1,13 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&display=swap');
-html {
-  background-color: ACFCD9;
-}
+@import url('https://fonts.googleapis.com/css2?family=Kenia&family=Noto+Sans&display=swap');
+
 header{
   text-align: center;
-  font-size: 20 px;
-  font-family: "Arial";
+  font-size: 50px;
+  background-color: #75a5a9;
+  font-family: "Kenia";
 }
 body {
+  background-color: #c1dcda;
   text-align: center;
   font-family: "DM Sans";
 }
+.round-image {
+    border-radius: 70%; 
+    width: 300px;
+    ;
+}
+ul, ol{
+  display: inline-block;
+  text-align: left;
+}
+hr {
+  height: 4px;
+  background-color: #044337;
+}
+nav {
+  display: inline;
+  padding-right: 50px;
+}
+
+a:link    { color: #006cfa;  }
+a:visited { color: purple;   }
+a:hover   { color: green; }
+a:active  { color: darkgreen;  }
