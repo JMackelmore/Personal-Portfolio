@@ -5,20 +5,21 @@ header{
   text-align: center;
   font-size: 50px;
   background-color: #75a5a9;
-  font-family: "Kenia";
+  font-family: "Kenia"; /* Using the font that was imported at the top of css file */
 }
 body {
   background-color: #c1dcda;
   text-align: center;
-  font-family: "DM Sans";
+  font-family: "DM Sans"; /* Using the font that was imported at the top of css file */
 }
 .round-image {
-    border-radius: 70%; 
+    border-radius: 70%;
     width: 300px;
+    margin: 30px; /*Creating some space between the top of the picture and the bottom of the header*/
     ;
 }
 ul, ol{
-  display: inline-block;
+  display: inline-block; /* Both assignments here make lists appear in a more natural way while the text is centered */
   text-align: left;
 }
 hr {
@@ -26,7 +27,7 @@ hr {
   background-color: #044337;
 }
 nav {
-  display: inline;
+  display: inline; /* These make the nav links appear side by side rather than stacked on top of each other and creates some space between them */
   padding-right: 50px;
 }
 
